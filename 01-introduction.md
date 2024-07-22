@@ -1,6 +1,3 @@
-
-
-
 # 1.  Why TypeScript and Why This Book
 
 **This chapter covers**
