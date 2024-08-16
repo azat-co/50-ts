@@ -13,9 +13,8 @@ This book is distributed for free on Leanpub where you can download beautifully 
 
 * [Welcome](00-welcome.md)
 1. [Why TypeScript and Why This Book](01-introduction.md)
-
-    1.1. Why TypeScript?
-    1.2. How does TypeScript work?
+   1.1. Why TypeScript?
+   1.2. How does TypeScript work?
     1.3. How this book is structured
     1.4. How to use this book
     1.5. For whom this book is intended
