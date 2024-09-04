@@ -96,7 +96,7 @@ class Circle implements Shape {       //  #B
 `#A Object shape must be the same shape as the interface Shape.`
 `#B Class Circle must have properties overlap with the Shape interface, i.e., method area().`
 
-By the way, in some TypeScript code outside of this book, you may see interfaces postfixed (ends) with I letter as in ShapeI. The motivation here is clear---to differentiate between class or type alias. However, this notation is discouraged by TS professionals as can be seen in this GitHub discussion: <https://github.co/microsoft/TypeScript-Handbook/issues/121>. In my opinion this notation is unnecessary.
+By the way, in some TypeScript code outside of this book, you may see interfaces postfixed (ends) with I letter as in ShapeI. The motivation here is clear---to differentiate between class or type alias. However, this notation is discouraged by TS professionals as can be seen in this GitHub discussion: <https://github.com/microsoft/TypeScript-Handbook/issues/121>. In my opinion this notation is unnecessary.
 
 To demonstrate the similarities between type aliases and interfaces, let's see how we can rewrite our example that used type aliases with interfaces instead. We need to replace equal signs with curly braces, keywords type with interface and because we cannot define union type with interface, we must create a workaround value property, as follows:
 
