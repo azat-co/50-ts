@@ -281,7 +281,7 @@ const instance = new MyType(); // #C
 
 `#A Incorrect usage: trying to use a type as a value`
 `#B Same error with interfaces`
-`#C Erro`
+`#C Error`
 
 
 Solution: use a class, enum, or constant instead of a type.
