@@ -1683,8 +1683,8 @@ console.log(compareUsers(user, admin, "permissions")); //  #C
 ```
 
 `#A false --- Correct usage, no errors`
-`#B false --- Error: Argument of type '"permissions"' is not assignable to parameter of type 'SharedProperties'`
-`#C true--- Correct usage, no errors`
+`#B false --- Correct usage, no errors`
+`#C true--- Error: Argument of type '"permissions"' is not assignable to parameter of type 'SharedProperties'`
 
 In the example above, using Extract allows us to create a SharedProperties type that includes only the properties common to both User and Admin. This ensures that the compareUsers function can only accept shared property keys as its third parameter.
 
