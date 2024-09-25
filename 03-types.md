@@ -96,7 +96,7 @@ class Circle implements Shape {       //  #B
 `#A Object shape must be the same shape as the interface Shape.`
 `#B Class Circle must have properties overlap with the Shape interface, i.e., method area().`
 
-By the way, in some TypeScript code outside of this book, you may see interfaces postfixed (ends) with I letter as in ShapeI. The motivation here is clear---to differentiate between class or type alias. However, this notation is discouraged by TS professionals as can be seen in this GitHub discussion: <https://github.co/microsoft/TypeScript-Handbook/issues/121>. In my opinion this notation is unnecessary.
+By the way, in some TypeScript code outside of this book, you may see interfaces postfixed (ends) with I letter as in ShapeI. The motivation here is clear---to differentiate between class or type alias. However, this notation is discouraged by TS professionals as can be seen in this GitHub discussion: <https://github.com/microsoft/TypeScript-Handbook/issues/121>. In my opinion this notation is unnecessary.
 
 To demonstrate the similarities between type aliases and interfaces, let's see how we can rewrite our example that used type aliases with interfaces instead. We need to replace equal signs with curly braces, keywords type with interface and because we cannot define union type with interface, we must create a workaround value property, as follows:
 
@@ -281,7 +281,7 @@ const instance = new MyType(); // #C
 
 `#A Incorrect usage: trying to use a type as a value`
 `#B Same error with interfaces`
-`#C Erro`
+`#C Error`
 
 
 Solution: use a class, enum, or constant instead of a type.
@@ -1683,8 +1683,8 @@ console.log(compareUsers(user, admin, "permissions")); //  #C
 ```
 
 `#A false --- Correct usage, no errors`
-`#B false --- Error: Argument of type '"permissions"' is not assignable to parameter of type 'SharedProperties'`
-`#C true--- Correct usage, no errors`
+`#B false --- Correct usage, no errors`
+`#C true--- Error: Argument of type '"permissions"' is not assignable to parameter of type 'SharedProperties'`
 
 In the example above, using Extract allows us to create a SharedProperties type that includes only the properties common to both User and Admin. This ensures that the compareUsers function can only accept shared property keys as its third parameter.
 

@@ -156,7 +156,7 @@ For simplicity's sake we'll treat errors and warnings as a single category, alth
 
 - Triple over double equals: Recommends using === and !== instead of == and != to avoid type coercion.
 
-- const over let: Using let for variables that are never reassigned.
+- const over let: Using const for variables that are never reassigned.
 
 Ergo, TypeScript developers can ignore some TS errors, but ignoring these compiler and type check errors and warnings can lead to subtle bugs, decreased code quality, and runtime errors. Ignoring warnings kind of defeats the benefits of TypeScript. This section will discuss the importance of addressing compiler warnings and suggest strategies for effectively managing and resolving them.
 

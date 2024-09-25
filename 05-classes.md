@@ -842,7 +842,7 @@ class Circle {
   }
 
   calculateArea() {
-    return this.PI * Circle.radius * Circle.radius;
+    return Circle.PI * Circle.radius * Circle.radius;
   }
 }
 
