@@ -757,7 +757,7 @@ console.log(el.src)     // #B
 `#A Property 'src' does not exist on type 'HTMLElement'.`
 `#B All is good here now`
 
-A little side note on type casting and type assertion. In TypeScript, they can be synonyms. However, TypeScript type assertion is different from the type casting in other languages like Java, C or C++ in that in other languages casting changes the value at a runtime to a different type. This is contrary to TypeScript's "casting" thatdoesn't change the runtime behavior of the program but provides a way to override the inferred type in the TypeScript type-checking phase. This is because TypeScript's "casting" will be stripped at run time when we run plain JavaScript.
+A little side note on type casting and type assertion. In TypeScript, they can be synonyms. However, TypeScript type assertion is different from the type casting in other languages like Java, C or C++ in that in other languages casting changes the value at a runtime to a different type. This is contrary to TypeScript's "casting" that doesn't change the runtime behavior of the program but provides a way to override the inferred type in the TypeScript type-checking phase. This is because TypeScript's "casting" will be stripped at run time when we run plain JavaScript.
 
 Here are some pitfalls and alternatives to type assertions in TypeScript:
 
